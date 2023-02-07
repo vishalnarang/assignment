@@ -1,0 +1,35 @@
+::ng-deep .mat-mdc-text-field-wrapper {
+    padding: 0 !important;
+}
+
+::ng-deep .mdc-floating-label--required:not(.mdc-floating-label--hide-required-marker)::after {
+    color: red !important;
+    padding-left: 3px;
+}
+
+::ng-deep .mdc-floating-label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0c1331;
+    padding: 0;
+    opacity: 0.5;
+}
+
+.mat-mdc-form-field-input-control {
+    height: 54px;
+    margin-top: 19px;
+}
+
+::ng-deep .mat-mdc-form-field-subscript-wrapper {
+    display: none;
+}
+::ng-deep .mdc-line-ripple::before{
+    opacity: 0.1;
+    color: #000000;
+}
+
+::ng-deep .mdc-line-ripple::after{
+    border-color:#0965ff;
+}

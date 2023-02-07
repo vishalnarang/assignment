@@ -1,0 +1,128 @@
+@import url('./../../../../../assets/css/input.scss');
+
+.background-image {
+    content: "";
+    background-image: url("/assets/images/side-image.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+.qouteText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 44px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    top: 30%;
+    position: absolute;
+    left: 20%;
+}
+
+.step__heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.428571px;
+    text-transform: uppercase;
+    opacity: 0.3;
+    color: #0c1331;
+    &.selected {
+        opacity: 1;
+    }
+}
+
+.sub__step__heading {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #0c1331;
+    opacity: 0.3;
+    &.selected {
+        opacity: 1;
+    }
+}
+
+.border-blue{
+    border-bottom: 1px solid #0965ff !important;
+}
+
+.rm-padd {
+    padding: 0;
+}
+
+.btn-class {
+    background: #132eb1;
+    border: 1px solid #132eb1;
+    width: 100%;
+    height: 40px;
+    font-family: "Druk Wide Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.396429px;
+    color: #ffffff;
+}
+
+.singup-container {
+    padding: 50px;
+}
+
+.border-btm {
+    border-bottom: 2px solid #0965ff !important;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.minus{
+    position: absolute;
+    bottom: 4px;
+    right: 44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    color: #0C1331;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.disabled{
+    opacity: 0.5;
+}
+
+.pointer-events{
+    pointer-events: none !important;
+}
+
+.plus{
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    color: #0966FF;
+    cursor: pointer;
+    z-index: 9;
+}

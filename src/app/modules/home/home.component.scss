@@ -1,0 +1,45 @@
+.head {
+    font-family: "Druk Wide Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.428571px;
+    text-transform: uppercase;
+    color: #0c1331;
+}
+
+.text {
+    font-family: "Circular Std";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #0c1331;
+}
+
+.content{
+    width: 40%;
+    margin: auto;
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+
+.btn-class {
+    background: #132eb1;
+    border: 1px solid #132eb1;
+    height: 40px;
+    font-family: "Druk Wide Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.396429px;
+    color: #ffffff;
+    padding: 0 25px;
+}
